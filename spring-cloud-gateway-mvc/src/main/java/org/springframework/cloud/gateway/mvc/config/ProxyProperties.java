@@ -34,6 +34,7 @@ import org.springframework.http.HttpHeaders;
 public class ProxyProperties {
 
     /**
+	 * 头部配置
      * Fixed header values that will be added to all downstream requests.
      */
     private Map<String, String> headers = new LinkedHashMap<>();
